@@ -1,8 +1,8 @@
 package pro.neura.test;
 
-public class ClassDuo {
+public class ClassDuo2 {
 
-	public ClassDuo() {
+	public ClassDuo2() {
 		super();
 		// eos logos
 	}
