@@ -1,8 +1,8 @@
 package pro.neura.test;
 
-public class ClassUno {
+public class ClassDuo {
 
-	public ClassUno() {
+	public ClassDuo() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
