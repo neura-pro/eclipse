@@ -8,15 +8,19 @@ import lombok.Data;
 
 @Data
 @Entity
-@SuppressWarnings("unused")
 public class Employee {
 
-	private @Id @GeneratedValue Long id;
+	@Id
+	@GeneratedValue
+	private Long id;
+
 	private String firstName;
 	private String lastName;
 	private String description;
 
-	private Employee() {}
+	@SuppressWarnings("unused")
+	private Employee() {
+	}
 
 	public Employee(String firstName, String lastName, String description) {
 		this.firstName = firstName;
